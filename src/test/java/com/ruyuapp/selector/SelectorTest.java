@@ -9,6 +9,10 @@ import com.ruyuapp.extractor.selector.CssSelector;
 import com.ruyuapp.extractor.utils.ValueType;
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author Letcheng on 2016/5/10.
  */
@@ -53,7 +57,7 @@ public class SelectorTest {
                 "        \"price\": 12.99\n" +
                 "      }]}}");
         PlainText plainText = json.jsonpathforList("store.book[*].author");
-        plainText.all().forEach(System.out::println);
+        System.out.println(plainText.get());
     }
 
 }
