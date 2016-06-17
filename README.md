@@ -1,5 +1,8 @@
 # extractor
 
+[![Build Status](https://travis-ci.org/letcheng/extractor.svg?branch=master)](https://travis-ci.org/letcheng/extractor)
+[![Release](https://jitpack.io/v/letcheng/extractor.svg)](https://jitpack.io/#letcheng/extractor)
+
 A data extraction and cleaning of the components, mainly used to extract ordinary text, HTML, JSON and other data, can be used in combination with web crawler program
 
 ![image](https://github.com/letcheng/extractor/raw/master/src/main/resources/extractor.JPG)
