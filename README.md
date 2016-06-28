@@ -1,7 +1,7 @@
 # Extractor
 
 [![Build Status](https://travis-ci.org/letcheng/extractor.svg?branch=master)](https://travis-ci.org/letcheng/extractor)
-[![Release](https://jitpack.io/v/letcheng/extractor.svg)](https://jitpack.io/#letcheng/extractor)
+[![Release](https://jitpack.io/v/letcheng/Extractor.svg)](https://jitpack.io/#letcheng/Extractor)
 
 数据抽取组件，用来从HTML、JSON、XML等原始数据中，按照自定义的规则抽取想要的数据
 
@@ -33,7 +33,7 @@
 ```
 
 
-1.Html 数据抽取(使用 CSS 抽取器 抽取)
+1.Html 数据抽取
 
 ```java
 Html html = Html.create("<div class=\"content\">\n" +
