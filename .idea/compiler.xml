@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Extractor" />
         <module name="extractor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="extractor" target="1.8" />
+      <module name="Extractor" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

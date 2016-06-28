@@ -1,4 +1,4 @@
-# extractor
+# Extractor
 
 [![Build Status](https://travis-ci.org/letcheng/extractor.svg?branch=master)](https://travis-ci.org/letcheng/extractor)
 [![Release](https://jitpack.io/v/letcheng/extractor.svg)](https://jitpack.io/#letcheng/extractor)
@@ -14,6 +14,24 @@
 * 支持数据的替换操作
 
 ### 使用
+
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+```
+<dependency>
+    <groupId>com.github.letcheng</groupId>
+    <artifactId>Extractor</artifactId>
+    <version>x.x</version>
+</dependency>
+```
+
 
 1.Html 数据抽取(使用 CSS 抽取器 抽取)
 
